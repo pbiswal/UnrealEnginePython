@@ -11,30 +11,30 @@
 	"MarketplaceURL": "",
 	"SupportURL": "",
 	"EnabledByDefault": true,
-	"CanContainContent": true,
+	"CanContainContent": false,
 	"IsBetaVersion": true,
 	"Installed": false,
 	"Modules": [
-    {
-      "Name": "UnrealEnginePython",
-      "Type": "Editor",
-      "LoadingPhase": "Default"
-    },
+		{
+			"Name": "UnrealEnginePython",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		},
 		{
 			"Name": "PythonConsole",
 			"Type": "Editor",
 			"LoadingPhase": "PostDefault"
 		},
 		{
-			"Name" : "PythonEditor",
-			"Type" : "Editor",
+			"Name": "PythonEditor",
+			"Type": "Editor",
 			"LoadingPhase": "PostDefault"
 		}
-  ],
-  "Plugins": [
-    {
-      "Name": "LevelSequenceEditor",
-      "Enabled": true
-    }
-  ]
+	],
+	"Plugins": [
+		{
+			"Name": "LevelSequenceEditor",
+			"Enabled": true
+		}
+	]
 }

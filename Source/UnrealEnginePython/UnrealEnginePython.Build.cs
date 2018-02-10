@@ -8,7 +8,7 @@ public class UnrealEnginePython : ModuleRules
 {
 
     // leave this string as empty for triggering auto-discovery of python installations...
-    private string pythonHome = "C:/Anaconda/";
+    private string pythonHome = "";
     // otherwise specify the path of your python installation
     //private string pythonHome = "C:/Program Files/Python36";
     // this is an example for Homebrew on Mac 
@@ -22,7 +22,8 @@ public class UnrealEnginePython : ModuleRules
         "C:/Program Files/Python36",
         "C:/Program Files/Python35",
         "C:/Python27",
-        "C:/IntelPython35"
+        "C:/IntelPython35",
+        "D:/Appz/Python36"
     };
 
     private string[] macKnownPaths =
